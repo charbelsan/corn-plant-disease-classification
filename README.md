@@ -10,10 +10,22 @@ corn plant disease classification with pytorch
 #### Dataset
  base dataset consists of about 87K rgb images of healthy and diseased crop leaves which is categorized into 38 different classes. 
  We only need corn pictures,the `data_proceesing.py` script creates a new dataset containing only corn images, keeping the same structure as the initial dataset
- a `corn_data` folder is created in the current project folder.
- ```bash
-    python data_proceesing.py
+ 
+ 
+```bash
+data_processing.py [-h] [--data_dir DATA_DIR]
+
+dataset processing
+
+options:
+  -h, --help           show this help message and exit
+  --data_dir DATA_DIR  Path to the data directory
+ 
 ```
+data_dir is the path to the dataset folder which contains Train and valid folders
+if the path to the dataset is not specified, data_dir=dataset_dir="./data/New Plant Diseases Dataset(Augmented)/New Plant Diseases Dataset(Augmented)"
+
+a `corn_data` folder is created in the current project folder.
 
 # Taining
 the architecture of the model to train is defined in the model.py file and configuration parameters in config.json
