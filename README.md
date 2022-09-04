@@ -28,9 +28,9 @@ Train and save in current project folder.
 ```
 
 batch size and epochs are configurable with `config.json`
-Instead of using a fixed learning rate, we will use a learning rate scheduler, max_lr in config.json is max learning rate. the others parameters are Weight decay ,Gradient clipping,
+Instead of using a fixed learning rate, we will use a learning rate scheduler, max_lr in config.json is max learning rate. the other parameters are Weight decay ,Gradient clipping,
 
-this strategy is best explained on my kaggle notebook about this project.
+this strategy is better explained on my kaggle notebook about this project.
 
  [find the notebbok here](https://www.kaggle.com/code/charbelsan/classification-des-maladies-du-mais)
 
