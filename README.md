@@ -28,8 +28,8 @@ if the path to the dataset is not specified, data_dir=dataset_dir="./data/New Pl
 
 a `corn_data` folder is created in the current project folder.
 
-# Taining
-the architecture of the model to train is defined in the model.py file and configuration parameters in config.json
+# Training
+the architecture of the model(resnet) to train is defined in the model.py file and configuration parameters in config.json
 
 Train the model
  ```bash
