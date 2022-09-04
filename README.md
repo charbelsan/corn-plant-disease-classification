@@ -23,6 +23,7 @@ options:
  
 ```
 data_dir is the path to the dataset folder which contains Train and valid folders
+
 if the path to the dataset is not specified, data_dir=dataset_dir="./data/New Plant Diseases Dataset(Augmented)/New Plant Diseases Dataset(Augmented)"
 
 a `corn_data` folder is created in the current project folder.
